@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+/* Header section start */
 .menu_container{
-    background-color: black;
+    background-color: #424141;
     padding: 20px;
     color:white;
     list-style: none;
@@ -28,3 +28,42 @@
 .menu_items:hover{
     color: #FF0000;
 }
+/* Header section end */
+
+/* Banner section start */
+.banner_container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-image: url(./images/background.png), 
+    linear-gradient(45deg,#000, rgb(46, 46, 46));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner_title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner_des{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.banner_pic{
+    width: 350px;
+}
+.btn{
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    padding-left: 20px;
+}
+/* Banner section end */
