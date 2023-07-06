@@ -58,13 +58,15 @@
 .btn{
     font-size: 14px;
     padding: 10px 15px;
+    margin-top: 5px;
     background-color: #FF0000;
     border: none;
     color: white;
     cursor: pointer;
+    transition: ease-in-out 0.2s;
 }
 .btn:hover{
-    padding-left: 20px;
+    padding-left: 25px;
 }
 /* Banner section end */
 
@@ -76,6 +78,10 @@
     flex-direction: row-reverse;
     color: #424141;
 }
+.about_info{
+    padding-left: 10px;
+    margin-left: 10px;
+}
 .about_heading{
     font-size: 50px;
     font-weight: bold;
@@ -84,7 +90,9 @@
     padding-bottom: 30px;
     color: #424141;
 }
-
+.about_title{
+    padding-bottom: 15px;
+}
 .about_des{
     font-size: 20px;
     padding-bottom: 5px;
@@ -94,3 +102,100 @@
     width: 350px;
 }
 /* About us section end */
+
+/* Service section start */
+.service_container{
+    height: 600px;
+    margin-top: 60px;
+    background-image: url(./images/background.png), 
+    linear-gradient(45deg,#000, rgb(46, 46, 46));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.service_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.service_heading{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: white;
+
+}
+.service_box{
+    width: 250px;
+    height: 340px;
+    color: black;
+    box-shadow: 3px 3px 10px #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.ser_icon{
+    width: 100px;
+    padding: 10px 0px;
+}
+.service_box p{
+    padding: 10px 0px;
+}
+/* Service section end */
+
+/* Contact section start */
+.contact_section{
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    height: 70vh;
+}
+.branding_name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+}
+.company_details{
+    width: 300px;
+    padding-bottom: 50px;
+    line-height: 30px;
+}
+.contact_details h3{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    
+}
+.contact_menus li{
+    padding-right: 50px;
+    margin-top: 10px;
+}
+/* Contact section end */
+
+/* Footer section start */
+.footer_container{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+.hr_line{
+    width: 85vw;
+    margin: 0 auto;
+}
+.copyright{
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+/* Footer section end */
