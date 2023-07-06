@@ -67,3 +67,30 @@
     padding-left: 20px;
 }
 /* Banner section end */
+
+/* About us section start */
+.about_us_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    color: #424141;
+}
+.about_heading{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #424141;
+}
+
+.about_des{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.about_pic{
+    width: 350px;
+}
+/* About us section end */
